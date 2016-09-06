@@ -1,0 +1,49 @@
+{
+    "name": "ebre-escool/ebre-escool-settings",
+    "type": "library",
+    "description": "Settings module for school apps",
+    "keywords": [
+        "ebre-escool",
+        "ebre-escool-settings"
+    ],
+    "homepage": "https://github.com/ebre-escool/ebre-escool-settings",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sergi Tur Badenas",
+            "email": "sergiturbadenas@gmail.com",
+            "homepage": "https://github.com/ebre-escool/ebre-escool-settings",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : "~5.6|~7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "~4.0||~5.0",
+        "scrutinizer/ocular": "~1.1",
+        "squizlabs/php_codesniffer": "~2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "ebre-escool\\ebre-escool-settings\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ebre-escool\\ebre-escool-settings\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "format": "phpcbf --standard=psr2 src/"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
