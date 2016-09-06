@@ -1,18 +1,18 @@
 {
-    "name": "ebre-escool/ebre-escool-settings",
+    "name": "ebre-escool/settings",
     "type": "library",
     "description": "Settings module for school apps",
     "keywords": [
         "ebre-escool",
-        "ebre-escool-settings"
+        "settings"
     ],
-    "homepage": "https://github.com/ebre-escool/ebre-escool-settings",
+    "homepage": "https://github.com/ebre-escool/settings",
     "license": "MIT",
     "authors": [
         {
             "name": "Sergi Tur Badenas",
             "email": "sergiturbadenas@gmail.com",
-            "homepage": "https://github.com/ebre-escool/ebre-escool-settings",
+            "homepage": "https://github.com/ebre-escool/settings",
             "role": "Developer"
         }
     ],
@@ -26,12 +26,12 @@
     },
     "autoload": {
         "psr-4": {
-            "ebre-escool\\ebre-escool-settings\\": "src"
+            "ebre-escool\\settings\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "ebre-escool\\ebre-escool-settings\\": "tests"
+            "ebre-escool\\settings\\": "tests"
         }
     },
     "scripts": {

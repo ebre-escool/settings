@@ -1,4 +1,4 @@
-# ebre-escool-settings
+# settings
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
@@ -15,7 +15,7 @@ PSRs you support to avoid any confusion with users and contributors.
 Via Composer
 
 ``` bash
-$ composer require ebre-escool/ebre-escool-settings
+$ composer require ebre-escool/settings
 ```
 
 ## Usage
@@ -52,17 +52,17 @@ If you discover any security related issues, please email sergiturbadenas@gmail.
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/ebre-escool/ebre-escool-settings.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/ebre-escool/settings.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/ebre-escool/ebre-escool-settings/master.svg?style=flat-square
-[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/ebre-escool/ebre-escool-settings.svg?style=flat-square
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/ebre-escool/ebre-escool-settings.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/ebre-escool/ebre-escool-settings.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/ebre-escool/settings/master.svg?style=flat-square
+[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/ebre-escool/settings.svg?style=flat-square
+[ico-code-quality]: https://img.shields.io/scrutinizer/g/ebre-escool/settings.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/ebre-escool/settings.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/ebre-escool/ebre-escool-settings
-[link-travis]: https://travis-ci.org/ebre-escool/ebre-escool-settings
-[link-scrutinizer]: https://scrutinizer-ci.com/g/ebre-escool/ebre-escool-settings/code-structure
-[link-code-quality]: https://scrutinizer-ci.com/g/ebre-escool/ebre-escool-settings
-[link-downloads]: https://packagist.org/packages/ebre-escool/ebre-escool-settings
+[link-packagist]: https://packagist.org/packages/ebre-escool/settings
+[link-travis]: https://travis-ci.org/ebre-escool/settings
+[link-scrutinizer]: https://scrutinizer-ci.com/g/ebre-escool/settings/code-structure
+[link-code-quality]: https://scrutinizer-ci.com/g/ebre-escool/settings
+[link-downloads]: https://packagist.org/packages/ebre-escool/settings
 [link-author]: https://github.com/acacha
 [link-contributors]: ../../contributors
