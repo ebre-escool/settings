@@ -22,7 +22,7 @@ class SettingsServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->register(Acacha\Profile\Providers\ProfileServiceProvider::class);
+        $this->app->register(\Acacha\Profile\Providers\ProfileServiceProvider::class);
     }
 
     /**
