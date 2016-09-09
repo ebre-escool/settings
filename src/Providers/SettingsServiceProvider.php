@@ -7,7 +7,7 @@ use Illuminate\Support\ServiceProvider;
 /**
  * Class EscoolServiceProvider.
  */
-class EscoolSettingsServiceProvider extends ServiceProvider
+class SettingsServiceProvider extends ServiceProvider
 {
     /**
      * Indicates if loading of the provider is deferred.
