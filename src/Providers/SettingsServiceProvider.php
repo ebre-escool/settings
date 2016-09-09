@@ -3,6 +3,7 @@
 namespace Escool\Settings\Providers;
 
 use Illuminate\Support\ServiceProvider;
+use Acacha\Profile\Providers\ProfileServiceProvider;
 
 /**
  * Class EscoolServiceProvider.
@@ -21,7 +22,7 @@ class SettingsServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->register('Acacha\Profile\Providers\ProfileServiceProvider');
+        $this->app->register(Acacha\Profile\Providers\ProfileServiceProvider::class);
     }
 
     /**
