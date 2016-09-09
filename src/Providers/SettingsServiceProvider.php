@@ -1,6 +1,6 @@
 <?php
 
-namespace Scool\Settings\Providers;
+namespace Escool\Settings\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
