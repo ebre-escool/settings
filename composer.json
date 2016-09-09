@@ -27,12 +27,12 @@
     },
     "autoload": {
         "psr-4": {
-            "ebre-escool\\settings\\": "src"
+            "Escool\\Settings\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "ebre-escool\\settings\\": "tests"
+            "Escool\\Settings\\": "tests"
         }
     },
     "scripts": {
